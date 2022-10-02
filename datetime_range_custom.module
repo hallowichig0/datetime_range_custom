@@ -1,10 +1,12 @@
 <?php
 
+/*
+* Remove this attached library support in Drupal Core 9.5 version
+*/
 function datetime_range_custom_inline_entity_form_entity_form_alter(&$entity_form, &$form_state) {
   
-  // Remove this attached library support in Drupal Core 9.5 version
-  if($entity_form['#entity_type'] === 'globe_app_component') {
-    // Attached asset library for inline_entity_form
-    $entity_form['#attached']['library'][] = 'datetime_range_custom/datetime_range_custom'; 
-  }
+  /*
+  * Attached asset library for inline_entity_form
+  */
+  $entity_form['#attached']['library'][] = 'datetime_range_custom/datetime_range_custom'; 
 }

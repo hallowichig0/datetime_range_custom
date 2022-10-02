@@ -1,0 +1,19 @@
+{
+      "name": "hallowichig0/datetime_range_custom",
+      "description": "DateTime Range Custom form element using the jquery ui datetimepicker. Support Date & DateTime only",
+      "type": "drupal-custom-module",
+      "keywords": ["Drupal"],
+      "homepage": "https://github.com/hallowichig0/menudatetime_range_custom_for_all",
+      "authors": [
+          {
+              "name": "Jayson Garcia",
+              "homepage": "https://hallowichig0.github.io",
+              "role": "Maintainer"
+          }
+      ],
+      "license": "GPL-2.0-or-later",
+      "require": {
+          "hallowichig0/datetime_range_custom": "^1.0"
+      }
+  }
+  
