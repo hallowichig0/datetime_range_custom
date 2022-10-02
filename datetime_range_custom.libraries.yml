@@ -1,0 +1,19 @@
+datetime_range_custom:
+  js:
+    js/bootstrap.min.js: {}
+    js/ripples.min.js: {}
+    js/material.min.js: {}
+    js/moment-with-locales.min.js: {}
+    js/bootstrap-material-datetimepicker.js: {}
+    js/drupal.datetime-range-custom.js: {}
+  css:
+    theme:
+      css/ripples.min.css: {}
+      css/bootstrap-material-datetimepicker.css: {}
+      https://fonts.googleapis.com/css?family=Roboto:400,500: { type: external }
+      https://fonts.googleapis.com/icon?family=Material+Icons: { type: external }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
