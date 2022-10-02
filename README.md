@@ -16,7 +16,7 @@ DateTime Range Custom form element using the jquery ui datetimepicker. Support D
 REQUIREMENTS
 ------------
 
-The Menu For All just requires the Drupal DateTime & DateTime Range project core:
+The DateTime Range Custom just requires the Drupal DateTime & DateTime Range project core:
 
  * DateTime (https://www.drupal.org/docs/8/core/modules/datetime)
  * DateTime Range (https://www.drupal.org/docs/8/core/modules/datetime-range)
