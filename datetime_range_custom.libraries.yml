@@ -4,7 +4,7 @@ datetime_range_custom:
     js/ripples.min.js: {}
     js/material.min.js: {}
     js/moment-with-locales.min.js: {}
-    js/bootstrap-material-datetimepicker.js: {}
+    js/bootstrap-material-datetimepicker.min.js: {}
     js/drupal.datetime-range-custom.js: {}
   css:
     theme:
